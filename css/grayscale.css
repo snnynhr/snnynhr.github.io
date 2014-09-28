@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #219ab3;
+    color: #FFFFFF;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -214,7 +214,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0 {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -231,7 +231,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0 {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -296,8 +296,8 @@ a:focus {
 
 .btn-default {
     border: 1px solid #219ab3;
-    color: #219ab3;
-    background-color: transparent;
+    color: #FFFFFF;
+    background-color: rgba(255,255,255,0.2);
 }
 
 .btn-default:hover,
