@@ -162,7 +162,7 @@ section h3.section-subheading {
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
-        margin: 0 0 30px;
+        margin: 0 0 0px;
     }
 }
 /*
@@ -204,7 +204,6 @@ section#about {
 section#portfolio {
     background-image: url(../img/projects1-bg.jpg);
     background-position: top;
-    background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
 }
