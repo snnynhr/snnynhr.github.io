@@ -190,11 +190,12 @@ section#music {
     background-image: url(../img/music2-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
 }
 
 section#about {
-    background-image: url(../img/about-bg.jpg);
+    background-image: url(../img/about3-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
