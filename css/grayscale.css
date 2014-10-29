@@ -203,7 +203,7 @@ section#about {
 
 }
 section#portfolio {
-    background-image: url(../img/about4-bg.jpg),
+    background-image: url(../img/12-bg.jpg),
                       url(../img/about6-bg.jpg),
                       url(../img/about8-bg.jpg);
     background-size: contain;
@@ -213,7 +213,10 @@ section#portfolio {
                          center center;
     width: 100%;
 }
-
+.portfolio p:
+{
+    font-size: 20pt;
+}
 .btn:focus,
 .btn:active,
 .btn.active,
@@ -657,5 +660,16 @@ body {
 
 .project
 {
-    background: rgba(0,0,0,.5);
+    /*background: rgba(0,0,0,.5);*/
+    background-image: linear-gradient(to right,
+            rgba(255,0,0,0),
+            rgba(0,0,0,0.4),
+            rgba(0,0,0,0.6),
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.6),
+            rgba(0,0,0,0.4),
+            rgba(255,0,0,0));
+    padding-top: 40px;
+    padding-bottom: 10px;
 }
