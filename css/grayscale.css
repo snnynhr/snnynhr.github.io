@@ -1,6 +1,17 @@
-body {
-    overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+.defx {
+    background-image: url(../img/13-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.fx {
+    font-size: 100%;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
 }
 
 .text-muted {
@@ -11,20 +22,18 @@ body {
     color: #222;
 }
 
+
 p {
-    font-size: 14px;
-    line-height: 1.75;
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 p.large {
     font-size: 16px;
 }
 
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
+a,a:hover,a:focus,a:active,a.active {
     outline: 0;
 }
 
@@ -32,14 +41,22 @@ a {
     color: #222;
 }
 
-a:hover,
-a:focus,
-a:active,
-a.active {
+a:hover,a:focus,a:active,a.active {
     color: #000;
 }
 
+a {
+    color: #FFFFFF;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
 
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #11505d;
+}
 
 .img-centered {
     margin: 0 auto;
@@ -72,15 +89,56 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    background-color: #000;
+    overflow-x: hidden;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
 @media(min-width:768px) {
     section {
         padding: 150px 0;
     }
 }
+@media(min-width:767px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
 
-.service-heading {
-    margin: 15px 0;
-    text-transform: none;
+.light {
+    font-weight: 400;
 }
 
 
@@ -300,63 +358,6 @@ section#portfolio {
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
-body {
-    width: 100%;
-    height: 100%;
-    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
-    background-color: #000;
-}
-
-html {
-    width: 100%;
-    height: 100%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0 0 35px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-p {
-    margin: 0 0 25px;
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-@media(min-width:767px) {
-    p {
-        margin: 0 0 35px;
-        font-size: 20px;
-        line-height: 1.6;
-    }
-}
-
-a {
-    color: #FFFFFF;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-}
-
-a:hover,
-a:focus {
-    text-decoration: none;
-    color: #11505d;
-}
-
-.light {
-    font-weight: 400;
-}
 
 /*
  NAVBAR
@@ -656,7 +657,6 @@ body {
 
 .project
 {
-    /*background: rgba(0,0,0,.5);*/
     background-image: linear-gradient(to right,
             rgba(255,0,0,0),
             rgba(0,0,0,0.4),
@@ -672,7 +672,9 @@ body {
 
 #abouttext
 {
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(50,50,50,0.4),
+    background-image: linear-gradient(to right,
+            rgba(255,0,0,0),
+            rgba(50,50,50,0.4),
             rgba(50,50,50,0.4),
             rgba(50,50,50,0.4),
             rgba(255,0,0,0));
