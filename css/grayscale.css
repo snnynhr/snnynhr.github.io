@@ -103,6 +103,7 @@ body {
     color: #fff;
     background-color: #000;
     overflow-x: hidden;
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
 html {
@@ -110,12 +111,7 @@ html {
     height: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -190,26 +186,6 @@ h6 {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0;
-}
-
-#portfolio .portfolio-item .portfolio-caption {
-    margin: 0 auto;
-    padding: 25px;
-    max-width: 400px;
-    text-align: center;
-    background-color: #000;
-}
-
-#portfolio .portfolio-item .portfolio-caption h4 {
-    margin: 0;
-    text-transform: none;
-}
-
-#portfolio .portfolio-item .portfolio-caption p {
-    margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
 }
 
 #portfolio * {
@@ -303,17 +279,6 @@ h6 {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
-
-/*
-#foot
-{
-    position: absolute;
-    bottom: -150px;
-    left:
-    padding-bottom: -20px;
-    color: #F00;
-}
-*/
 
 
 section#contact {
@@ -651,9 +616,6 @@ img::-moz-selection {
     background: 0 0;
 }
 
-body {
-    webkit-tap-highlight-color: rgba(255,255,255,.2);
-}
 
 .project
 {
@@ -678,4 +640,10 @@ body {
             rgba(50,50,50,0.4),
             rgba(50,50,50,0.4),
             rgba(255,0,0,0));
+}
+
+.projecttext
+{
+    padding-left: 15px;
+    padding-right: 15px;
 }
