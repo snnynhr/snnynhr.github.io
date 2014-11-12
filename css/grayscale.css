@@ -30,6 +30,15 @@ h3.nomargin {
     margin: 0 0 0 0px;
     margin-left: 15px;
 }
+h3.track {
+    margin: 15 15 15 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-block;
+}
+.player
+{
+}
 p {
     margin: 0 0 25px;
     font-size: 18px;
@@ -320,7 +329,7 @@ section#about {
 
 }
 section#portfolio {
-    background-image: url(../img/12-bg.jpg),
+    background-image: url(../img/12-bgl.jpg),
                       url(../img/about6-bg.jpg),
                       url(../img/about8-bg.jpg);
     background-size: contain;
