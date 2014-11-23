@@ -1,0 +1,99 @@
+.defx {
+    background-image: url(../img/13-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.defbx {
+    background-image: url(../img/anks.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+}
+.fx {
+    font-size: 100%;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+}
+.player
+{
+}
+.projectdescription
+{
+    overflow: hidden;
+}
+
+section#contact {
+    background-image: url(../img/contact3-bg.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+section#music {
+    background-image: url(../img/music2-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+section#about {
+    background-image: url(../img/about3-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+section#portfolio {
+    background-image: url(../img/12-bgl.jpg),
+                      url(../img/about6-bg.jpg),
+                      url(../img/about8-bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat, repeat-x, repeat-y;
+    background-position: top center,
+                         center center,
+                         center center;
+    width: 100%;
+}
+
+
+
+.project
+{
+    background-image: linear-gradient(to right,
+            rgba(255,0,0,0),
+            rgba(0,0,0,0.4),
+            rgba(0,0,0,0.6),
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.6),
+            rgba(0,0,0,0.4),
+            rgba(255,0,0,0));
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+#abouttext
+{
+    background-image: linear-gradient(to right,
+            rgba(255,0,0,0),
+            rgba(50,50,50,0.4),
+            rgba(50,50,50,0.4),
+            rgba(50,50,50,0.4),
+            rgba(255,0,0,0));
+}
+
+.projecttext
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
