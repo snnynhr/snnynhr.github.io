@@ -65,9 +65,9 @@ section#portfolio {
     width: 100%;
 }
 section#research {
-    background-image: url(../img/12-bgl.jpg),
-                      url(../img/about6-bg.jpg),
-                      url(../img/about8-bg.jpg);
+    background-image: url(../img/11-bg.jpg),
+                      url(../img/about5-bg.jpg),
+                      url(../img/about7-bg.jpg);
     background-size: contain;
     background-repeat: no-repeat, repeat-x, repeat-y;
     background-position: top center,
