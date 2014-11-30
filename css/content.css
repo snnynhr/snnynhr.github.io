@@ -146,7 +146,7 @@ section#research {
     background: rgba(250,250,250,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
-    transition: all ease .5s;
+    transition: ease-in-out .5s;
 }
 
  .portfolio-item .portfolio-link .portfolio-hover:hover {
