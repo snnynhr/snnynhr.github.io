@@ -28,6 +28,11 @@
     overflow: hidden;
 }
 
+a
+{
+    color: #ADD8E6;
+}
+
 section#contact {
     background-image: url(../img/contact3-bg.jpg);
     background-position: bottom;
