@@ -54,15 +54,25 @@ section#about {
 
 section#portfolio {
     background-image: url(../img/12-bgl.jpg),
-                      url(../img/about6-bg.jpg),
                       url(../img/about8-bg.jpg);
     background-size: contain;
     background-repeat: no-repeat, repeat-x, repeat-y;
     background-position: top center,
-                         center center,
-                         center center;
+                         bottom center;
     width: 100%;
 }
+
+section#portfolio2 {
+    background-image: url(../img/about4-bg.jpg),
+                      url(../img/10-bg.jpg);
+
+    background-size: contain;
+    background-repeat: no-repeat, repeat-x, repeat-y;
+    background-position: top center,
+                         bottom center;
+    width: 100%;
+}
+
 section#research {
     background-image: url(../img/11-bg.jpg),
                       url(../img/about5-bg.jpg),
