@@ -6,31 +6,6 @@ h1 {
     letter-spacing: 1px;
 }
 
-.defx {
-    background-image: url(../img/13-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    width: 100%;
-}
-.defbx {
-    background-image: url(../img/anks.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    width: 100%;
-}
-.fx {
-    font-size: 100%;
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    top: 50%;
-    left: 50%;
-}
-.player
-{
-}
 .projectdescription
 {
     overflow: hidden;
@@ -41,14 +16,14 @@ a
     color: #ADD8E6;
 }
 
-section#contact {
-    background-image: url(../img/contact3-bg.jpg);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    margin-bottom: 0px;
+header#contact {
+    background: url(../img/music4-bg.jpg) no-repeat bottom center scroll;
 }
+
+header#about {
+    background: url(../img/about3-bg.jpg) no-repeat bottom center scroll;
+}
+
 
 section#music {
     background-image: url(../img/music2-bg.jpg);
@@ -56,6 +31,16 @@ section#music {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+}
+
+
+section#contact {
+    background-image: url(../img/contact3-bg.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 0px;
 }
 
 section#about {
@@ -66,6 +51,7 @@ section#about {
     width: 100%;
 
 }
+
 section#portfolio {
     background-image: url(../img/12-bgl.jpg),
                       url(../img/about6-bg.jpg),
@@ -156,7 +142,7 @@ section#research {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(250,250,250,.9);
+    background: rgba(250,250,250,.6);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: ease-in-out .5s;
