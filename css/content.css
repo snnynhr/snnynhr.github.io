@@ -17,11 +17,24 @@ a
 }
 
 header#contact {
-    background: url(../img/music4-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/music4-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header#lego {
+    background: url(../img/IMG_0447.jpg) no-repeat bottom center scroll;
+    background-size: cover;
+}
+
+#lego-about {
+    background-color: #FF2E2E;
 }
 
 header#about {
-    background: url(../img/about3-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/24.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -35,54 +48,70 @@ section#music {
 
 
 section#contact {
-    background-image: url(../img/contact3-bg.jpg);
-    background-position: bottom;
-    background-repeat: no-repeat;
+    background-image: url(../img/music4-bg.jpg);
+    // background-position: bottom;
+    // background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    width: 100%;
-    margin-bottom: 0px;
+    // width: 100%;
+    // margin-bottom: 0px;
 }
 
 section#about {
-    background-image: url(../img/about3-bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(../img/24.jpg);
+    // background-position: center;
+    // background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    width: 100%;
-
+    // width: 100%;
 }
 
 section#portfolio {
-    background-image: url(../img/12-bgl.jpg),
-                      url(../img/about8-bg.jpg);
-    background-size: contain;
-    background-repeat: no-repeat, repeat-x, repeat-y;
-    background-position: top center,
-                         bottom center;
-    width: 100%;
+     background-image: url(../img/26.jpg);
+     background-attachment: fixed;
+     background-size: cover;
 }
 
 section#portfolio2 {
-    background-image: url(../img/about4-bg.jpg),
-                      url(../img/10-bg.jpg);
-
-    background-size: contain;
-    background-repeat: no-repeat, repeat-x, repeat-y;
-    background-position: top center,
-                         bottom center;
-    width: 100%;
+     background-image: url(../img/19.jpg);
+     background-attachment: fixed;
+     background-size: cover;
 }
 
+// section#portfolio {
+//     background-image: url(../img/12-bgl.jpg),
+//                       url(../img/about8-bg.jpg);
+//     background-size: contain;
+//     background-repeat: no-repeat, repeat-x, repeat-y;
+//     background-position: top center,
+//                          bottom center;
+//     width: 100%;
+// }
+
+// section#portfolio2 {
+//     background-image: url(../img/26.jpg) scroll;
+//     // background-image: url(../img/about4-bg.jpg),
+//     //                  url(../img/10-bg.jpg);
+
+//     //background-size: contain;
+//     //background-repeat: no-repeat, repeat-x, repeat-y;
+//     //background-position: top center,
+//     //                     bottom center;
+//     width: 100%;
+// }
+
 section#research {
-    background-image: url(../img/11-bg.jpg),
-                      url(../img/about5-bg.jpg),
-                      url(../img/about7-bg.jpg);
-    background-size: contain;
-    background-repeat: no-repeat, repeat-x, repeat-y;
-    background-position: top center,
-                         center center,
-                         center center;
-    width: 100%;
+    // background-image: url(../img/11-bg.jpg),
+                      // url(../img/about5-bg.jpg),
+                      // url(../img/about7-bg.jpg);
+    background-image: url(../img/54.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    // background-repeat: no-repeat, repeat-x, repeat-y;
+    // background-position: top center,
+                         // center center,
+                         // center center;
+    // width: 100%;
 }
 
 
