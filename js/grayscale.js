@@ -14,6 +14,16 @@ $(window).scroll(function() {
     }
 });
 
+$('.emgen').on('mouseenter mouseleave', function(e) {
+    var lace1 = "sxna";
+    var lace2 = "har@g";
+    var lace3 = "mail.com";
+    var text = e.type === 'mouseleave' 
+               ? 'Email'
+               : lace1 + lace2 + lace3;
+    $('.emgen').text(text).fadeIn();
+});
+
 // scroll = false;
 // changed = false;
 
