@@ -1,14 +1,51 @@
-h1 {
-    margin: 0 0 35px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
+h1.main {
+    font-weight: 100;
 }
 
-.projectdescription
-{
-    overflow: hidden;
+h2.main {
+    font-weight: 200;
+}
+
+.arrow {
+  position: absolute;
+  left: 0;
+  bottom: 72px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.arrow i {
+  font-size: 22px;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.arrow i:hover {
+  color: #f23b3b;
+  border-color: #f23b3b;
+  -webkit-transition: all 0.3s ease 0s;
+          transition: all 0.3s ease 0s;
+}
+
+.arrow:active .btn {
+  box-shadow: none;
+}
+
+@media (max-height: 500px) {
+
+  .bg__first {
+
+    min-height: 520px;
+
+  }
+
 }
 
 a
@@ -22,142 +59,86 @@ header#contact {
     background-attachment: fixed;
 }
 
-header#lego {
-    background: url(../img/IMG_0447.jpg) no-repeat bottom center scroll;
-    background-size: cover;
-}
-
-#lego-about {
-    background-color: #FF2E2E;
-}
-
 header#about {
-    background: url(../img/24.jpg);
+    background: url(../img/24-small.jpg);
     background-size: cover;
     background-attachment: fixed;
-}
-
-
-section#music {
-    background-image: url(../img/music2-bg.jpg);
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-}
-
-
-section#contact {
-    background-image: url(../img/music4-bg.jpg);
-    // background-position: bottom;
-    // background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    // width: 100%;
-    // margin-bottom: 0px;
-}
-
-section#about {
-    background-image: url(../img/24.jpg);
-    // background-position: center;
-    // background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    // width: 100%;
 }
 
 section#portfolio {
-     background-image: url(../img/26.jpg);
+     background-image: url(../img/26-small.jpg);
      background-attachment: fixed;
      background-size: cover;
 }
 
 section#portfolio2 {
-     background-image: url(../img/19.jpg);
+     background-image: url(../img/19-small.jpg);
      background-attachment: fixed;
      background-size: cover;
 }
 
-// section#portfolio {
-//     background-image: url(../img/12-bgl.jpg),
-//                       url(../img/about8-bg.jpg);
-//     background-size: contain;
-//     background-repeat: no-repeat, repeat-x, repeat-y;
-//     background-position: top center,
-//                          bottom center;
-//     width: 100%;
-// }
-
-// section#portfolio2 {
-//     background-image: url(../img/26.jpg) scroll;
-//     // background-image: url(../img/about4-bg.jpg),
-//     //                  url(../img/10-bg.jpg);
-
-//     //background-size: contain;
-//     //background-repeat: no-repeat, repeat-x, repeat-y;
-//     //background-position: top center,
-//     //                     bottom center;
-//     width: 100%;
-// }
-
 section#research {
-    // background-image: url(../img/11-bg.jpg),
-                      // url(../img/about5-bg.jpg),
-                      // url(../img/about7-bg.jpg);
-    background-image: url(../img/54.jpg);
+    background-image: url(../img/54-small.jpg);
     background-attachment: fixed;
     background-size: cover;
-    // background-repeat: no-repeat, repeat-x, repeat-y;
-    // background-position: top center,
-                         // center center,
-                         // center center;
-    // width: 100%;
+    background-position: center;
 }
 
 
-.project
-{
-    background-image: linear-gradient(to right,
-            rgba(255,0,0,0),
-            rgba(0,0,0,0.4),
-            rgba(0,0,0,0.6),
-            rgba(0,0,0,0.7),
-            rgba(0,0,0,0.7),
-            rgba(0,0,0,0.6),
-            rgba(0,0,0,0.4),
-            rgba(255,0,0,0));
+.project {
     padding-top: 40px;
     padding-bottom: 10px;
 }
 
+@media(max-width: 766px) {
+  .fade-overlay
+  {
+      background-image: linear-gradient(to top,
+              rgba(0,0,0,0.6) 90%,
+              rgba(0,0,0,0.0));
+  }
+}
+@media(min-width: 767px) {
+  .project {
+    background-image: linear-gradient(to right,
+        rgba(0,0,0,0.0) 0%,
+        rgba(0,0,0,0.3) 2%,
+        rgba(0,0,0,0.5) 5%,
+        rgba(0,0,0,0.6) 10%,
+        rgba(0,0,0,0.6) 90%,
+        rgba(0,0,0,0.5) 95%,
+        rgba(0,0,0,0.3) 98%,
+        rgba(0,0,0,0.2) 99%,
+        rgba(0,0,0,0.0) 100%);
+  }
+}
+
 #abouttext
 {
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-image: linear-gradient(to right,
             rgba(255,0,0,0),
             rgba(50,50,50,0.4),
             rgba(50,50,50,0.4),
             rgba(50,50,50,0.4),
             rgba(255,0,0,0));
-}
-
-.projecttext
-{
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .projecttext h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 34px;
+    font-weight: 200;
 }
 
 .projecttext h3.section-subheading {
     margin-bottom: 15px;
     text-transform: none;
     font-size: 24px;
-    font-style: italic;
     font-weight: 400;
+    font-style: normal;
 }
 
 /*

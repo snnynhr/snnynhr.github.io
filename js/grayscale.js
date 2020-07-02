@@ -15,47 +15,13 @@ $(window).scroll(function() {
 });
 
 $('.emgen').on('mouseenter mouseleave', function(e) {
-    var lace1 = "sxna";
-    var lace2 = "har@g";
-    var lace3 = "mail.com";
-    var text = e.type === 'mouseleave' 
-               ? 'Email'
-               : lace1 + lace2 + lace3;
+    var lace1 = "snnyx";
+    var lace2 = "nhr@g";
+    var lace3 = "mai";
+    var lace4 = "l.com";
+    var text = lace1 + lace2 + lace3 + lace4;
     $('.emgen').text(text).fadeIn();
 });
-
-// scroll = false;
-// changed = false;
-
-// $(window).scroll(function() {
-//     console.log($('.navbar').offset().top);
-//     if ($('.navbar').offset().top > 50) {
-//         $('.navbar-fixed-top').addClass('top-nav-collapse');
-//     } else {
-//         $('.navbar-fixed-top').removeClass('top-nav-collapse');
-//     }
-
-//     if ($('.navbar').offset().top >= 620) {
-//         scroll = true;
-//     }
-//     else
-//     {
-//         changed = false;
-//         scroll = false;
-//     }
-//     if (scroll && !changed)
-//     {
-//       changed = true;
-//       a = document.getElementsByClassName('intro');
-//       console.log(a);
-//       var v = Math.floor(Math.random() * 24.0) + 1;
-//       for (i = 0; i < a.length; i++)
-//       {
-//         a[i].style.setProperty('background', 'url(img/' + v + '.jpg) no-repeat bottom center scroll');
-//         a[i].style.setProperty('background-size', 'cover');
-//       }
-//     }
-// });
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
