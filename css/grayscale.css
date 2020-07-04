@@ -357,7 +357,7 @@ section#portfolio {
 }
 
 section#portfolio2 {
-     background: url(../img/19-mobile.jpg) center /cover no-repeat fixed;
+     background: url(../img/19-mobile.webp) center /cover no-repeat fixed;
 }
 
 @media(min-width:450px) {
