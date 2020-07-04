@@ -7,17 +7,39 @@
         <meta name="description" content="Contact">
         <meta name="author" content="Sunny Nahar">
         <title>Contact</title>
-        <!-- Bootstrap Core CSS -->
-        <link href="css/bootstrap.critical.css" rel="stylesheet" type="text/css">
-        <!-- Custom CSS -->
+        <link href="css/bootstrap.critical.min.css" rel="stylesheet" type="text/css">
         <link href="css/grayscale.css" rel="stylesheet" type="text/css">
-        <!-- Custom Fonts -->
+        <link rel="preload" href="font-awesome-4.1.0/fonts/fa/fonts/fa-min.woff?6nk7ao" as="font" crossorigin>
         <link href="font-awesome-4.1.0/css/font-awesome.critical.min.css" rel="stylesheet" type="text/css">
-        <!-- <link href="https://fonts.googleapis.com/css?family=Lora:100,200,400,700,400italic,700italic" rel="stylesheet" type="text/css"> -->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400,700" rel="stylesheet" type="text/css">
+        <link rel="preload" href="fonts/montserrat-v14-100.woff2" as="font" crossorigin>
+        <link rel="preload" href="fonts/montserrat-v14-200.woff2" as="font" crossorigin>
+        <link rel="preload" href="fonts/montserrat-v14-400.woff2" as="font" crossorigin>
+        <link rel="preload" href="img/music4-bg-mobile.jpg" as="image">
+        <style>
+           @font-face {
+             font-family: 'Montserrat';
+             font-style: normal;
+             font-weight: 100;
+             src: local('Montserrat Thin'), local('Montserrat-Thin'), url(fonts/montserrat-v14-100.woff2) format('woff2');
+             unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+           }
+           @font-face {
+             font-family: 'Montserrat';
+             font-style: normal;
+             font-weight: 200;
+             src: local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url(fonts/montserrat-v14-200.woff2) format('woff2');
+             unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+           }
+           @font-face {
+             font-family: 'Montserrat';
+             font-style: normal;
+             font-weight: 400;
+             src: local('Montserrat Regular'), local('Montserrat-Regular'), url(fonts/montserrat-v14-400.woff2) format('woff2');
+             unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+           }
+        </style>
     </head>
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-        <!-- Navigation -->
         <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -25,15 +47,12 @@
                     <i class="fa fa-bars"></i>
                     </button>
                 </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                     <ul class="nav navbar-nav">
-                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                        <li class="hidden"><a href="#page-top"></a></li>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="research.html">Research</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="about">About</a></li>
+                        <li><a href="projects">Projects</a></li>
+                        <li><a href="research">Research</a></li>
                         <li><a href="files/Resume20171231.pdf">Résumé</a></li>
                     </ul>
                 </div>
@@ -62,11 +81,8 @@
                 </div>
             </div>
         </header>
-        <!-- jQuery Version 1.11.0 -->
-        <script src="js/jquery-1.11.0.js"></script>
-        <!-- Bootstrap Core JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
-        <!-- Plugin JavaScript -->
-        <script src="js/grayscale.js"></script>
+        <script defer src="js/jquery-3.5.1.js"></script>
+        <script defer src="js/bootstrap.critical.min.js"></script>
+        <script defer src="js/grayscale.js"></script>
     </body>
 </html>
