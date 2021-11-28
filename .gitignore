@@ -1,1 +1,6 @@
-site*
+node*
+*libwebp*
+*.DS_Store*
+scrape.js
+package*
+*bootstrap-4.5*
